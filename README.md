@@ -42,21 +42,3 @@ To use the Cube Puzzle Solver, simply run the script, and the GUI will appear. Y
 ## Installation
 
 To get started with the Cube Puzzle Solver, you need to have Python installed on your machine. Clone or download this repository to your local machine, navigate to the directory containing the script, and run it using Python.
-
-```bash
-git clone https://github.com/your-username/cube-puzzle-solver.git
-cd cube-puzzle-solver
-python puzzle_solver.py
-```
-
-## Requirements
-
-The script requires Python and the following Python library:
-
-- `tkinter` for the GUI
-
-Make sure you have them installed before running the script:
-
-```bash
-pip install tk
-```
