@@ -4,6 +4,12 @@ Welcome to the Cube Puzzle Solver! This Python script is designed to solve a uni
 
 ![Cube Puzzle Solver GUI](screenshot.png)
 
+## Physical Version of the Puzzle
+
+Below is an image of the physical version of the puzzle, made of wood, to give you a glimpse of what it looks like:
+
+![Physical Cube Puzzle](puzzle.jpg)
+
 ## Puzzle Description
 
 - There are 10 cubes, each with 4 faces.
