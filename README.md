@@ -1,44 +1,47 @@
-Cube Puzzle Solver
-==================
+# Cube Puzzle Solver
 
-Description
------------
+Welcome to the Cube Puzzle Solver! This Python script is designed to solve a unique puzzle involving a tower of cubes, each with numbers on their faces. The goal of the puzzle is to rotate the cubes so that each column (representing one side of the tower) sums up to 555.
 
-This script is a simple GUI application that helps you solve the following puzzle:
+## Puzzle Description
 
-1. There are 10 cubes with 4 faces each.
-2. The goal of the puzzle is to turn the cubes arranged in the column so that the sum 555 is formed on all sides.
-3. Each column shows a single side of each of the 10 vertically arranged cubes.
+- There are 10 cubes, each with 4 faces.
+- Each face has a unique number.
+- The cubes are stacked vertically to form a tower.
+- The tower has 4 visible columns, one for each side of the cubes.
+- The objective is to rotate the cubes such that the sum of the numbers on each side equals 555.
 
-Getting Started
----------------
+## Features
 
-To run the script, you will need Python and the `tkinter` library installed on your system. Simply run the script using a Python interpreter, and the GUI will appear.
+- A GUI for interactive puzzle solving.
+- Functions to rotate cubes, shuffle the configuration, and check for a solution.
+- An algorithm to find a solution by trying all possible combinations.
+- A function to find and save all possible solutions to a text file.
 
-Usage
------
+## Usage
 
-Upon starting the application, you will see the current configuration of the cubes and the sums of each column. You can manually rotate each cube by clicking the "Rotate" button next to it.
+To use the Cube Puzzle Solver, simply run the script, and the GUI will appear. You can interact with the puzzle by rotating the cubes, shuffling them, or solving the puzzle automatically.
 
-To shuffle the cubes, click the "Shuffle" button. This will randomly rotate the faces of each cube, allowing you to start with a new configuration.
+### Manual Rotation
 
-To solve the puzzle, click the "Solve" button. The script will try all possible combinations of rotations to find a solution where the sum of all columns is 555. If a solution is found, the cubes will be updated to display the solution.
+- Click on the "Rotate" button next to each cube to rotate the cube manually.
 
-To find and save all possible solutions, click the "Find All Solutions" button. The script will write all solutions to a text file named "solutions.txt".
+### Shuffle Cubes
 
-Technical Details
------------------
+- Click the "Shuffle" button to randomly shuffle the cubes.
 
-The script uses the `tkinter` library to create a GUI for displaying the cubes and interacting with the user. The `itertools` library is used to generate all possible combinations of rotations for the cubes.
+### Solve Puzzle
 
-The `rotate` function rotates a cube by a given number of positions. The `rotate_cube` function is used to manually rotate a cube when the user clicks the "Rotate" button.
+- Click the "Solve" button to automatically find a solution where all sides of the tower sum to 555.
 
-The `shuffle_cubes` function randomly rotates each cube to generate a new starting configuration.
+### Find All Solutions
 
-The `is_solution` function checks if the current configuration of the cubes meets the target sum.
+- Click the "Find All Solutions" button to compute all possible solutions and save them to a text file named `solutions.txt`.
 
-The `solve_cubes` function tries all possible combinations of rotations to find a solution where the sum of all columns is equal to the target sum.
+## Installation
 
-The `find_all_solutions` function finds and saves all possible solutions to a text file.
+To get started with the Cube Puzzle Solver, you need to have Python installed on your machine. Clone or download this repository to your local machine, navigate to the directory containing the script, and run it using Python.
 
-The `update_cube_display` function updates the GUI with the current state of the cubes and the sums.
+```bash
+git clone https://github.com/your-username/cube-puzzle-solver.git
+cd cube-puzzle-solver
+python puzzle_solver.py
