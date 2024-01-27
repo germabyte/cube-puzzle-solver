@@ -1,8 +1,7 @@
+```markdown
 # Cube Puzzle Solver
 
 Welcome to the Cube Puzzle Solver! This Python script is designed to solve a unique puzzle involving a tower of cubes, each with numbers on their faces. The goal of the puzzle is to rotate the cubes so that each column (representing one side of the tower) sums up to 555.
-
-![Cube Puzzle Solver GUI](screenshot.png)
 
 ## Puzzle Description
 
@@ -47,3 +46,16 @@ To get started with the Cube Puzzle Solver, you need to have Python installed on
 git clone https://github.com/your-username/cube-puzzle-solver.git
 cd cube-puzzle-solver
 python puzzle_solver.py
+```
+
+## Requirements
+
+The script requires Python and the following Python library:
+
+- `tkinter` for the GUI
+
+Make sure you have them installed before running the script:
+
+```bash
+pip install tk
+```
